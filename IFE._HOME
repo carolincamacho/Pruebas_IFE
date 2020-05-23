@@ -1,0 +1,397 @@
+{
+  "id": "282c5dce-1d2e-4f87-8373-065ff9131043",
+  "version": "2.0",
+  "name": "ife",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "9bae347d-5877-4292-998a-237cbbca494a",
+    "name": "home",
+    "commands": [{
+      "id": "f5fc4c59-8605-4138-90ec-8d41cd855685",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d723cc5b-b22c-475c-aa61-a8aa7a7264c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c37da008-5f45-4ece-bf81-2132df406741",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "586e8d36-9fba-4aaa-9093-cf179e2ef268",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "carolina"
+    }, {
+      "id": "994481f4-a6ec-4357-9151-6f1745141a54",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "camacho"
+    }, {
+      "id": "c1944d94-360e-4297-9ae9-55e0c7db2adf",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e7c0bb-7ff8-4ce4-b01d-c50e51a962d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1245699"
+    }, {
+      "id": "253ac3b8-d1a4-4f9f-b25e-3d1776b6b718",
+      "comment": "",
+      "command": "type",
+      "target": "id=edad",
+      "targets": [
+        ["id=edad", "id"],
+        ["name=edad", "name"],
+        ["css=#edad", "css:finder"],
+        ["xpath=//input[@id='edad']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "81"
+    }, {
+      "id": "5019ea4c-b2cb-40f4-9fc7-4b78a6dbd911",
+      "comment": "",
+      "command": "click",
+      "target": "id=paisOrigenSelect",
+      "targets": [
+        ["id=paisOrigenSelect", "id"],
+        ["name=paisOrigen", "name"],
+        ["css=#paisOrigenSelect", "css:finder"],
+        ["xpath=//select[@id='paisOrigenSelect']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef1b58ce-b465-46f6-a4d6-9b43edc181b4",
+      "comment": "",
+      "command": "select",
+      "target": "id=paisOrigenSelect",
+      "targets": [],
+      "value": "label=Colombia"
+    }, {
+      "id": "98832418-8c41-4f7f-a063-3f94cda456ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#paisOrigenSelect > option:nth-child(47)",
+      "targets": [
+        ["css=#paisOrigenSelect > option:nth-child(47)", "css:finder"],
+        ["xpath=//option[@value='Colombia']", "xpath:attributes"],
+        ["xpath=//select[@id='paisOrigenSelect']/option[47]", "xpath:idRelative"],
+        ["xpath=//option[47]", "xpath:position"],
+        ["xpath=//option[contains(.,'Colombia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60fbd545-f825-412d-ab3a-4ba2c572dc10",
+      "comment": "",
+      "command": "click",
+      "target": "id=aeroOrigenSelect",
+      "targets": [
+        ["id=aeroOrigenSelect", "id"],
+        ["name=id", "name"],
+        ["css=#aeroOrigenSelect", "css:finder"],
+        ["xpath=//select[@id='aeroOrigenSelect']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aa4872d-cfb2-4a18-a5ea-fad37b39dac6",
+      "comment": "",
+      "command": "select",
+      "target": "id=aeroOrigenSelect",
+      "targets": [],
+      "value": "label=Cali - CLO - Alfonso Bonilla Aragon International Airport"
+    }, {
+      "id": "79d487f2-7d81-4fb9-80b2-3bd1da000d2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#aeroOrigenSelect > option:nth-child(13)",
+      "targets": [
+        ["css=#aeroOrigenSelect > option:nth-child(13)", "css:finder"],
+        ["xpath=//option[@value='2715']", "xpath:attributes"],
+        ["xpath=//select[@id='aeroOrigenSelect']/option[13]", "xpath:idRelative"],
+        ["xpath=//div[2]/select/option[13]", "xpath:position"],
+        ["xpath=//option[contains(.,'Cali - CLO - Alfonso Bonilla Aragon International Airport')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ad2538-d9ac-4f41-8303-a5b1cb46fffe",
+      "comment": "",
+      "command": "click",
+      "target": "id=paisDestinoSelect",
+      "targets": [
+        ["id=paisDestinoSelect", "id"],
+        ["name=paisDestino", "name"],
+        ["css=#paisDestinoSelect", "css:finder"],
+        ["xpath=//select[@id='paisDestinoSelect']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e983406-59b4-4377-aa43-9be8545522d3",
+      "comment": "",
+      "command": "select",
+      "target": "id=paisDestinoSelect",
+      "targets": [],
+      "value": "label=Colombia"
+    }, {
+      "id": "2c9dd1e2-6e89-46d9-aef1-e72138d912a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#paisDestinoSelect > option:nth-child(47)",
+      "targets": [
+        ["css=#paisDestinoSelect > option:nth-child(47)", "css:finder"],
+        ["xpath=(//option[@value='Colombia'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='paisDestinoSelect']/option[47]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select/option[47]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c295d87d-b7c4-4488-8a87-d49c240833c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=aeroDestinoSelect",
+      "targets": [
+        ["id=aeroDestinoSelect", "id"],
+        ["name=aeroDestino", "name"],
+        ["css=#aeroDestinoSelect", "css:finder"],
+        ["xpath=//select[@id='aeroDestinoSelect']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24729d71-7d9e-41be-8ece-c6c2f42bbb85",
+      "comment": "",
+      "command": "select",
+      "target": "id=aeroDestinoSelect",
+      "targets": [],
+      "value": "label=Medellin - EOH - Enrique Olaya Herrera Airport"
+    }, {
+      "id": "700c71aa-6fdb-4d38-bfb4-a020c25a1c0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#aeroDestinoSelect > option:nth-child(40)",
+      "targets": [
+        ["css=#aeroDestinoSelect > option:nth-child(40)", "css:finder"],
+        ["xpath=(//option[@value='2729'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='aeroDestinoSelect']/option[40]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/select/option[40]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7957ce2-4e81-4433-b499-48063ec76870",
+      "comment": "",
+      "command": "click",
+      "target": "id=aeroDestinoSelect",
+      "targets": [
+        ["id=aeroDestinoSelect", "id"],
+        ["name=aeroDestino", "name"],
+        ["css=#aeroDestinoSelect", "css:finder"],
+        ["xpath=//select[@id='aeroDestinoSelect']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b6dc3af-95db-4ab2-aea6-a3eb2b4c9e4e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "322.6499938964844,12.183349609375"
+    }, {
+      "id": "92897bf2-0b44-4234-a087-446f97ee1bae",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "322.6499938964844,12.183349609375"
+    }, {
+      "id": "cdb81ab8-34de-4606-aea8-c0eef88128a9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "322.6499938964844,12.183349609375"
+    }, {
+      "id": "f57a02e0-c3fa-459f-b115-4cf2486f7330",
+      "comment": "",
+      "command": "type",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "352"
+    }, {
+      "id": "1ef37748-2710-457e-96db-1f5d597d8aa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44970c98-75bf-497e-8c00-9044881ad54f",
+      "comment": "",
+      "command": "type",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "393"
+    }, {
+      "id": "9be7cbfb-8607-4533-a549-a662a2db3df6",
+      "comment": "",
+      "command": "click",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e304d4ae-d0d0-44a6-ba5d-12e6d261fa23",
+      "comment": "",
+      "command": "type",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "460"
+    }, {
+      "id": "da7211d2-33f3-4bd6-8b24-33bdc34656c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=formControlRange",
+      "targets": [
+        ["id=formControlRange", "id"],
+        ["name=velocidad", "name"],
+        ["css=#formControlRange", "css:finder"],
+        ["xpath=//input[@id='formControlRange']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36daaee-39b3-4f68-9493-7092cb801583",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Iniciar Simulación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fef1c96-c7d1-406b-b574-6adfcf172fff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Regresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e126858-ad50-4188-a062-2bfaf80a77f5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9bae347d-5877-4292-998a-237cbbca494a"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}
